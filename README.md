@@ -1,12 +1,12 @@
 # go-download-manager
 golang实现简单的文件下载管理   
-使用**apollo**进行文件版本管理，客户端监听配置的变化触发文件下载。同时能在apollo管理端看到已连接的客户端和是否已更新
+使用**apollo**进行文件版本管理，客户端监听配置的变化触发文件下载。同时能在**apollo**管理端看到已连接的客户端和是否已更新
 
 # Usage
 
 ## 配置管理系统apollo部署
 [参考](https://github.com/ctripcorp/apollo/wiki/Apollo-Quick-Start-Docker%E9%83%A8%E7%BD%B2)
-
+使用官方提供的docker-quick-start
 ### 修改docker-compose.yml
 #### 修改启动的镜像源
 ```
